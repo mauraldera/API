@@ -1,0 +1,23 @@
+div.contact {
+	display:block;
+	border:1px solid black;
+	width:500px;
+
+	height:auto;
+	margin:0 auto;
+	padding:0 auto;
+}
+
+h4.contact{
+	font-family: 'Raleway', serif;
+	text-align:center;
+
+
+
+}
+
+@media screen and (max-width: 600px) {
+	div.contact {
+		width:auto;
+	}
+}
